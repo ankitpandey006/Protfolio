@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae </title>
+</head>
+
+<body>
+
+    <form action="server">
+        <div id="img">
+            <label for="image"><b>Upload Image</b></label>
+            <input type="file" id="image" name="choose file" onchange="readURL(this)" accept="image/*">
+        </div>
+        <div class="Persnol-information">
+            <h2>Persnol's Information : </h2>
+            <label for="name"><b>Name :</b></label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name "><br>
+            <br>
+            <br>
+            <label for="fname"><b>Father's Name :</b></label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Your Father's Name">
+            <h4>Address</h4><br>
+            <label for="vill"><b>Villege :</b></label>
+            <input type="text" name="vill" id="vill" placeholder="Enter Villege">
+            &nbsp; <label for="post"><b>Post Office :</b></label>
+            <input type="text" name="po" id="post" placeholder="Enter Post Office">
+            &nbsp; <label for="dis"><b>District :</b></label>
+            <input type="text" name="dis" id="dis" placeholder="Enter District">
+            &nbsp; <label for="pin"><b>Pin Code :</b></label>
+            <input type="number" name="pin" id="pin" placeholder="Enter PIN CODE">
+        </div>
+        <div>
+            <br>
+            <br>
+            <label for="DOB"><b>Date of Brith :</b></label>
+            <input type="date" name="DOB" id="DOB">
+        </div>
+        <div>
+            <br>
+            <br>
+            <b> Gender :</b>
+            <select name="sex" id="sex">
+                <option value="sex" selected>Choose gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <br>
+            <b>Marital Status : </b>
+            <select name="ms" id="Marital Status">
+                <option value="ms" selected>Choose Marital Status </option>
+                <option value="m">Married</option>
+                <option value="u">Unmarried</option>
+            </select>
+            <br>
+            <br>
+            <b>Nationality : </b>
+            <select name="n" id="Nationality">
+                <option value="n" selected>Choose Nationality</option>
+                <option value="IND">India</option>
+                <option value="p">Pakistan</option>
+                <option value="b">Bangladesh</option>
+                <option value="usa">America</option>
+                <option value="r">Russia</option>
+                <option value="c">Chaina</option>
+                <option value="e">England</option>
+                <option value="s">Sri lanka</option>
+                <option value="a">Afganistan</option>
+                <option value="j">japan</option>
+                <option value="o">other</option>
+            </select>
+            <br>
+            <br>
+            <b>Religion : </b>
+            <select name="r" id="Religion">
+                <option value="n" selected>Choose Religion</option>
+                <option value="h">Hindu</option>
+                <option value="m">Muslim</option>
+                <option value="s">Sikh</option>
+                <option value="ot">other</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <table border="black">
+            <caption>
+                <h2>Acadmic Qualification</h2>
+            </caption>
+            <tr>
+                <thead>
+                    <th>Level</th>
+                    <th>Year</th>
+                    <th>Institutes</th>
+                    <th>Percentage</th>
+                </thead>
+            </tr>
+
+            <tbody>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"> To <input type="date"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"> To <input type="date"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"> To <input type="date"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="date"> To <input type="date"></td>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <b>
+                <h2>Work Experience</h2>
+            </b><br>
+            <b>Are You Fresher</b><br>
+            <label for="work experience">Yes</label>
+            <input type="radio" name="experience" id="work experience">
+            <label for="experience">No</label>
+            <input type="radio" name="experience" id="experience"><br>
+            <label for="yes"><b>If You Select "No", then fill Your Experience Here</b></label><br>
+            <textarea name="Enter Experience" id="yes" cols="42" rows="5"></textarea>
+        </div>
+        <div>
+            <br>
+            <label for="hobbies"><b>Enter Your hobbies</b></label><br>
+            <textarea name="hobbies" id="hobbies" cols="30" rows="2"></textarea>
+        </div>
+        <div>
+            <h3>Language Known</h3><br>
+            <label for="hin"><b>Hindi</b></label>
+            <input type="checkbox" id="hin">
+            <label for="Eng"><b>English</b></label>
+            <input type="checkbox" id="Eng">
+            <label for="ur"><b>Urdu</b></label>
+            <input type="checkbox" id="ur">
+            <label for="tamil"><b>Tamil</b></label>
+            <input type="checkbox" id="tamil">
+            <label for="french"><b>French</b></label>
+            <input type="checkbox" id="french">
+            <label for="chinese"><b>Chinese</b></label>
+            <input type="checkbox" id="chinese">
+            <label for="japanese"><b>Japanese</b></label>
+            <input type="checkbox" id="japanese">
+        </div>
+        <div>
+            <h2>Skills</h2>
+            <label for="skill"><b>Enter Your Skills</b></label><br>
+            <textarea name="skill" id="skill" cols="30" rows="3" placeholder="Describe Your Skill "></textarea>
+        </div>
+        <div>
+            <h2>Declaration</h2>
+            <input type="checkbox" id="declaration">
+            <label for="declaration"><b>I here by declare that all the above mentioned information is true to the best
+                    of my knowlege and belief</b></label>
+        </div>
+        <div class="button">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
