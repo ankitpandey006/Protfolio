@@ -13,7 +13,7 @@
 }
 
 .btn_one i{
-    color: hsla(320, 90%, 88%, 0.932);
+    color: hsla(320, 95%, 9%, 0.932);
     font-size: 30px;
     font-weight: 1000;
     position: absolute;
@@ -38,10 +38,21 @@
     line-height: 60px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.836) ;
     height: 60px;
+   display: flex;
+   align-items: center;
+
+}
+.logo .logo-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 17px;
+    background-image:url(logo-img.jpg);
+    background-size: cover;
 }
 .sidebar_menu .logo a{
     position: absolute;
-    left: 50px;
+    left: 72px;
     color: rgb(5, 0, 0);
     text-decoration: none;
     font-size: 20px;
@@ -67,6 +78,7 @@
 .sidebar_menu .menu li{
     margin-top: 6px;
     padding: 15px 20px;
+    transition: all 0.3s ;
 }
 .sidebar_menu .menu i,a{
     color: rgba(22, 1, 1, 0.952);
@@ -109,7 +121,7 @@
 .navbar{
     height: 60px;
     width: 100%;
-    background-color: #8d5555;
+    background-color: #68ffff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -136,6 +148,14 @@
 .nav-links li{
     display: inline-block;
     padding: 0px 20px;
+    transition: all 0.2s linear;
+}
+/* add hover here */
+.nav-links li:hover{
+    transform: scale(1.05);
+    color: rgb(2, 2, 65);
+    box-shadow: 0.5px 1px 2px  #000000;
+    border-radius: 20px;
 }
 .nav-search{
     display: flex;
