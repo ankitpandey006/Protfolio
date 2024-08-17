@@ -123,6 +123,27 @@ switch(day)
 }
 // alert("This is the simeple alert");
 
-let firstname = prompt("Enter your first name");
-let lastname = prompt("enter your last name ");
-console.log("welcome  "firstname " "lastname "!");
+//let firstname = prompt("Enter your first name");
+//let lastname = prompt("enter your last name ");
+// console.log("welcome  "firstname " "lastname 
+let str1 = "   ankit";
+console.log(str1.trim()); // use trim to remove extra spaces from left and right
+//let password = prompt("Enter a password");
+//console.log(password.trim()); // remove spaces in string 
+
+// Upper and Lower case
+let n = "Ankit";
+console.log(n.toUpperCase());
+console.log(n.toLowerCase());
+let str2 = "IloveCoding";
+// console.log(str2.slice(-2));
+console.log(str2.replace("o","x"));
+console.log(str2.repeat(5));
+
+let msg1 = "  help!";
+console.log(msg1.trim().toUpperCase());
+
+let name1 = "ApnaCollege";
+console.log(name1.slice(4,9));
+console.log(name1.indexOf("na"));
+console.log(name1.replace("Apna","Our"))
