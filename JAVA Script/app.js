@@ -1,4 +1,4 @@
-console.log("hello world");
+/*console.log("hello world");
 let a = 5;
 let b = 2;
 console.log("sum is = ", a + b);
@@ -163,3 +163,91 @@ console.log(lang.reverse().indexOf("javascript"));
 // practice question
 let game = [['X',null,'O'],[null,'X',null],['O',null,'X']];
 console.log(game)
+*/
+// object literals
+  /*let classroom = {
+    classname:"1st class",
+    no_of_student: 60,
+  };
+  console.log(classroom);
+  */
+ /*const post = {
+    username:"ankitpandey006",
+    content:"this is my fist post #myprofilepic",
+    likes:50,
+    repost:20,
+    tags:"@ankit,@mohit,@pankaj,@twinkle"
+ };
+ console.log(post);
+ console.log(post.likes,post.repost);
+delete post.content;
+console.log(post);
+post.likes = "comment";
+console.log(post);
+
+const student = {
+    name:"ankit pandey",
+    age:19,
+    marks:94.5,
+    city:"patna"
+};
+console.log(student);
+student.city = "siwan";
+console.log(student);
+student.gender = "male";
+student.marks = "A";
+console.log(student);
+
+// nasted object litrerals
+let clssinfo = {
+    Aman:{
+        grade:"A",
+        city:"delhi"
+    },
+    Ankit:{
+        grade:"A+",
+        city:"patna"
+    },
+    Rohit:{
+        grade:"B",
+        city:"hajipur"
+    },
+    chandan:{
+        grade:"A++",
+        city:"Aurangabad"
+    },
+    Mayank:{
+        grade:"A+",
+        city:"Muzaferpur"
+    }
+
+
+};
+console.log(clssinfo);
+console.log(clssinfo.Mayank.city);
+
+//array object literals
+
+const classinfo = [
+    {
+        name:"ankit",
+        grade:"A+",
+        city:"Siwan",
+        marks:94.5
+    },
+    {
+        name:"chandan",
+        grade:"A++",
+        city:"Aurangabad",
+        marks:98.5
+    },
+    {
+        name:"Mayankt",
+        grade:"A",
+        city:"Muzzaferpur",
+        marks:85.2
+    }
+];
+ console.log(classinfo);
+ console.log(classinfo[2].city)
+ */
