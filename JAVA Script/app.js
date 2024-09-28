@@ -147,3 +147,19 @@ let name1 = "ApnaCollege";
 console.log(name1.slice(4,9));
 console.log(name1.indexOf("na"));
 console.log(name1.replace("Apna","Our"))
+let primary1 = ["red","green","yellow"];
+console.log(primary1.indexOf("green"));
+let primary = ["red","yellow","blue"];
+let secondray = ["orange","yellow","green","voilet"];
+console.log(primary.concat(secondray));
+console.log(primary.reverse());
+//practice question
+let months = ["january","july","march","august"];
+console.log(months.slice(0,1,"june","july"));
+
+let lang = ["c","c++","HTML","javascript","python","java","C#","Sql"];
+//console.log(lang.reverse());
+console.log(lang.reverse().indexOf("javascript"));
+// practice question
+let game = [['X',null,'O'],[null,'X',null],['O',null,'X']];
+console.log(game)
